@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="./ejerciciosJS.js"></script>
+    <script async src="./dom.js"></script>
+    <title>Ejercicios JS</title>
+</head>
+
+<body>
+    <h1>EJERCICIOS LOGICA DE PROGRAMACION CON JS</h1>
+    <h3>ESTRUCTURAS DE CONTROL DE FLUJO</h3>
+
+    <ul>
+        <li>Secuencias</li>
+        <li>Condicionales</li>
+        <li>Ciclos</li>
+    </ul>
+
+    <section>
+        <h3>EJERCICIO MANUPULACION DEL DOM CON JS</h3>
+        <p>Hacer un programa que reciba un nombre por parte del usuario, si se recibió nombre por parte del usuario,
+            saludarlo con ese nombre, si no, sólo decir 'Hola, desconocido' con Manejo de DOM 📝</p>
+
+        <!-- label es el texto que acompaña los input -->
+        <label for="nombre">Ingrese su nombre</label>
+        <!-- un input es una etiqueta para datos de entrada -> informacion que suministra el usuario -->
+        <input id="nombre" type="text">
+        <br>
+        <br>
+        <!-- vamos a usar el evento onClick -> darClick al boton -->
+        <button onclick="saludarUsuario()">Saludar</button>
+        <br>
+        <br>
+        <span class="mostrarSaludo">En esta etiqueta se va a saludar</span>
+        <!-- <span>En esta etiqueta con el objetivo de dar estilo con css, para monstrar mensaje desde js, mensajes cortos, que no son ni titulos ni parrafos</span> -->
+
+    </section>
+
+</body>
+
+</html>
